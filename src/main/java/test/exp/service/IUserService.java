@@ -2,6 +2,8 @@ package test.exp.service;
 
 import test.exp.entities.User;
 
+import java.util.List;
+
 public interface IUserService {
     List<User> retrieveAllUsers();
 User RetrieveUserById(int id);
