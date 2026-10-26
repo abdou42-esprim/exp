@@ -18,13 +18,14 @@ public class RestUserController {
     @GetMapping("/retrive-all-users")
     public List<User> getAllUsers()
     {
-        return userService.retrieveAllUsers();
+  return null;
     }
 
     @GetMapping("/retrive-user/{userid}")
     public User retrieveUser(@PathVariable("userid") Long userid)
-    {return userService.retrieveUsers()}
-
+    {
+        return null;
+    }
 
 }
 
